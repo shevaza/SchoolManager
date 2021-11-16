@@ -306,6 +306,14 @@ if ($school_data = mysqli_query($mysqli, "SELECT * FROM `school`")) {
                                             </div>
                                         </div>
                                         <div class="row mt-4">
+                                            <div class="col">
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input" id="customFile">
+                                                    <label class="custom-file-label" for="customFile">Choose Logo</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-4">
                                             <div class="col text-right">
                                                 <button type="button" onclick="Save()" class="btn btn-primary">Save</button>
                                             </div>
